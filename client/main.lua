@@ -308,12 +308,6 @@ RegisterNetEvent('AnimalFraming', function()
           icon = "fa fa-tint",
           label = "Milk Cow",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:slaughter1",
-          icon = "fa fa-cutlery",
-          label = "Kill Cow",
-        },
       },
       distance = v.distance,
     })
@@ -335,12 +329,6 @@ RegisterNetEvent('AnimalFraming2', function()
           event = "qb-simplefarming:milkcow",
           icon = "fa fa-tint",
           label = "Milk Cow",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:slaughter2",
-          icon = "fa fa-cutlery",
-          label = "Kill Cow",
         },
       },
       distance = v.distance,
@@ -365,12 +353,6 @@ RegisterNetEvent('AnimalFraming3', function()
           icon = "fa fa-tint",
           label = "Milk Cow",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:slaughter3",
-          icon = "fa fa-cutlery",
-          label = "Kill Cow",
-        },
       },
       distance = v.distance,
     })
@@ -393,12 +375,6 @@ RegisterNetEvent('AnimalFraming4', function()
           event = "qb-simplefarming:milkcow",
           icon = "fa fa-tint",
           label = "Milk Cow",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:slaughter4",
-          icon = "fa fa-cutlery",
-          label = "Kill Cow",
         },
       },
       distance = v.distance,
@@ -1500,12 +1476,6 @@ RegisterNetEvent('PigPens', function()
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig1",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
-        },
       },
       distance = v.distance,
     })
@@ -1530,12 +1500,6 @@ RegisterNetEvent('PigPens', function()
           event = "qb-simplefarming:feedpig",
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig2",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
         },
       },
       distance = v.distance,
@@ -1562,12 +1526,6 @@ RegisterNetEvent('PigPens', function()
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig3",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
-        },
       },
       distance = v.distance,
     })
@@ -1592,12 +1550,6 @@ RegisterNetEvent('PigPens', function()
           event = "qb-simplefarming:feedpig",
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig4",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
         },
       },
       distance = v.distance,
@@ -1624,12 +1576,6 @@ RegisterNetEvent('PigPens', function()
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig5",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
-        },
       },
       distance = v.distance,
     })
@@ -1654,12 +1600,6 @@ RegisterNetEvent('PigPens', function()
           event = "qb-simplefarming:feedpig",
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig6",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
         },
       },
       distance = v.distance,
@@ -1686,12 +1626,6 @@ RegisterNetEvent('PigPens', function()
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig7",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
-        },
       },
       distance = v.distance,
     })
@@ -1716,12 +1650,6 @@ RegisterNetEvent('PigPens', function()
           event = "qb-simplefarming:feedpig",
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig8",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
         },
       },
       distance = v.distance,
@@ -1748,12 +1676,6 @@ RegisterNetEvent('PigPens', function()
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig9",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
-        },
       },
       distance = v.distance,
     })
@@ -1778,12 +1700,6 @@ RegisterNetEvent('PigPens', function()
           event = "qb-simplefarming:feedpig",
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig10",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
         },
       },
       distance = v.distance,
@@ -1810,12 +1726,6 @@ RegisterNetEvent('PigPens', function()
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig11",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
-        },
       },
       distance = v.distance,
     })
@@ -1840,12 +1750,6 @@ RegisterNetEvent('PigPens', function()
           event = "qb-simplefarming:feedpig",
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig12",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
         },
       },
       distance = v.distance,
@@ -1872,12 +1776,6 @@ RegisterNetEvent('PigPens', function()
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig13",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
-        },
       },
       distance = v.distance,
     })
@@ -1902,12 +1800,6 @@ RegisterNetEvent('PigPens', function()
           event = "qb-simplefarming:feedpig",
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig14",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
         },
       },
       distance = v.distance,
@@ -1934,12 +1826,6 @@ RegisterNetEvent('PigPens', function()
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
         },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig15",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
-        },
       },
       distance = v.distance,
     })
@@ -1964,12 +1850,6 @@ RegisterNetEvent('PigPens', function()
           event = "qb-simplefarming:feedpig",
           icon = "Fas Fa-Hand-Holding-Heart",
           label = "Feed Pig",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:killpig16",
-          icon = "Fas Fa-Piggy-Bank",
-          label = "Slaughter Pig",
         },
       },
       distance = v.distance,
@@ -2106,23 +1986,23 @@ exports['qb-menu']:openMenu(MeatCooking)
 end)
 
 
-exports['qb-target']:AddBoxZone("grammahouse", vector3(2438.07, 4975.82, 46.81), 1.0, 1.0, {
-	name = "grammahouse",
-	heading = 315,
-	debugPoly = false,
-  minZ = 46.76,
-  maxZ = 47.16,
-}, {
-	options = {
-    {
-      type = "client",
-      event = "qb-simplefarming:menufcow",
-      icon = "Fas Fa-hands",
-      label = "Start Cooking",
-    },
-	},
-	distance = 1.0
-})
+-- exports['qb-target']:AddBoxZone("grammahouse", vector3(2438.07, 4975.82, 46.81), 1.0, 1.0, {
+-- 	name = "grammahouse",
+-- 	heading = 315,
+-- 	debugPoly = false,
+--   minZ = 46.76,
+--   maxZ = 47.16,
+-- }, {
+-- 	options = {
+--     {
+--       type = "client",
+--       event = "qb-simplefarming:menufcow",
+--       icon = "fas fa-hands",
+--       label = "Start Cooking",
+--     },
+-- 	},
+-- 	distance = 1.0
+-- })
 
 exports['qb-target']:AddBoxZone("processingped", FoodProcessor.targetZone, 1, 1, {
 	name = "processingtrader",
