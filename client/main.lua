@@ -1433,7 +1433,7 @@ RegisterNetEvent('qb-simplefarming:porkprocessing', function()
 end)
 
 RegisterNetEvent('qb-simplefarming:sausageprocessing', function()
-  QBCore.Functions.TriggerCallback('qb-simplefarming:rawpork', function(rawbeef)
+  QBCore.Functions.TriggerCallback('qb-simplefarming:rawsausage', function(rawbeef)
     if rawbeef then
       TriggerEvent('animations:client:EmoteCommandStart', {"BBQ"})
       QBCore.Functions.Progressbar('beef_processing', Config.Alerts['sausage_processing'], Config.ProcessingTime['sausage_processingtime'] , false, true, { -- Name | Label | Time | useWhileDead | canCancel
@@ -1449,6 +1449,27 @@ RegisterNetEvent('qb-simplefarming:sausageprocessing', function()
       end)
     elseif not rawbeef then
        QBCore.Functions.Notify(Config.Alerts['error_sausage'], "error", 3000)
+    end
+  end)
+end)
+
+RegisterNetEvent('qb-simplefarming:fishprocessing', function()
+  QBCore.Functions.TriggerCallback('qb-simplefarming:rawfish', function(rawbeef)
+    if rawbeef then
+      TriggerEvent('animations:client:EmoteCommandStart', {"BBQ"})
+      QBCore.Functions.Progressbar('beef_processing', Config.Alerts['fish_processing'], Config.ProcessingTime['fish_processingtime'] , false, true, { -- Name | Label | Time | useWhileDead | canCancel
+      disableMovement = true,
+      disableCarMovement = true,
+      disableMouse = false,
+      disableCombat = true,
+      }, {}, {}, {}, function()
+          TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+          TriggerServerEvent("qb-simplefarming:fishprocessed")
+      end, function()
+        QBCore.Functions.Notify(Config.Alerts['cancel'], "error")
+      end)
+    elseif not rawbeef then
+       QBCore.Functions.Notify(Config.Alerts['error_fish'], "error", 3000)
     end
   end)
 end)
@@ -1979,6 +2000,12 @@ RegisterNetEvent('qb-simplefarming:menufcow', function()
         header = 'Cook Sausage',
         params = {
             event = 'qb-simplefarming:sausageprocessing',
+        }
+    },
+    {
+        header = 'Cook Fish',
+        params = {
+            event = 'qb-simplefarming:fishprocessing',
         }
     },
 }

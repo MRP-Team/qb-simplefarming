@@ -558,6 +558,17 @@ QBCore.Functions.CreateCallback('qb-simplefarming:rawsausage', function(source, 
     end
 end)
 
+QBCore.Functions.CreateCallback('qb-simplefarming:rawfish', function(source, cb)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player ~= nil then
+        if Player.Functions.GetItemByName("mackerel") ~= nil then
+            cb(true)
+        else
+            cb(false)
+        end
+    end
+end)
+
 RegisterServerEvent('qb-simplefarming:baconprocessed', function()
     local source = source
     local Player = QBCore.Functions.GetPlayer(tonumber(source))
@@ -672,6 +683,35 @@ RegisterServerEvent('qb-simplefarming:sausageprocessed', function()
     Wait(750)
     Player.Functions.AddItem('cooked_sausage', Sausage)
     TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['cooked_sausage'], "add")
+end)
+
+RegisterServerEvent('qb-simplefarming:fishprocessed', function()
+    local source = source
+    local Player = QBCore.Functions.GetPlayer(tonumber(source))
+    local fish = Player.Functions.GetItemsByName('mackerel')
+    if #fish < Config.FishProcessing then
+        TriggerClientEvent('QBCore:Notify', source, Config.Alerts['error_fish'])
+        return false
+    end
+
+    local amount = #fish
+    if amount >= Config.FishProcessing then
+        amount = Config.FishProcessing
+    else
+      return false
+    end
+
+    if not Player.Functions.RemoveItem('mackerel', amount) then
+        TriggerClientEvent('QBCore:Notify', source, Config.Alerts['itemamount'])
+        return false
+    end
+
+    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['mackerel'], "remove")
+    TriggerClientEvent('QBCore:Notify', source, Config.Alerts['fish_processing'])
+    local Fish = Config.FishProcessed
+    Wait(750)
+    Player.Functions.AddItem('cooked_mackerel', Fish)
+    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['cooked_mackerel'], "add")
 end)
 
 RegisterServerEvent('qb-simplefarming:pigfood', function()
