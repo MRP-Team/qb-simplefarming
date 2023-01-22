@@ -1,6 +1,6 @@
-ATreeZones = {
+AppleTrees = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree1',
         Coords = vector3(2401.53, 4687.95, 33.68),
         heading = 0,
         minZ=32.05,
@@ -8,7 +8,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree2',
         Coords = vector3(2387.04, 4724.22, 34.12),
         heading = 0,
         minZ=31.72,
@@ -16,7 +16,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree3',
         Coords = vector3(2367.42, 4751.43, 33.74),
         heading = 0,
         minZ=30.94,
@@ -24,7 +24,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree4',
         Coords = vector3(2353.55, 4760.43, 34.3),
         heading = 0,
         minZ=33.3,
@@ -32,7 +32,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree5',
         Coords = vector3(2343.7, 4755.61, 34.75),
         heading = 0,
         minZ=32.72,
@@ -40,7 +40,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree6',
         Coords = vector3(2339.5, 4767.24, 35.16),
         heading = 0,
         minZ=33.72,
@@ -48,7 +48,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree7',
         Coords = vector3(2327.75, 4770.84, 36.03),
         heading = 0,
         minZ=34.63,
@@ -56,7 +56,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree8',
         Coords = vector3(2325.97, 4761.78, 35.95),
         heading = 0,
         minZ=34.63,
@@ -64,7 +64,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree9',
         Coords = vector3(2324.82, 4746.77, 36.04),
         heading = 0,
         minZ=33.44,
@@ -72,7 +72,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree10',
         Coords = vector3(2339.43, 4741.31, 35.12),
         heading = 0,
         minZ=33.44,
@@ -80,7 +80,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree11',
         Coords = vector3(2350.41, 4734.16, 34.81),
         heading = 0,
         minZ=33.44,
@@ -88,7 +88,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree12',
         Coords = vector3(2364.91, 4729.96, 34.15),
         heading = 0,
         minZ=31.55,
@@ -96,7 +96,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree13',
         Coords = vector3(2359.24, 4723.84, 34.56),
         heading = 0,
         minZ=31.76,
@@ -104,7 +104,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree14',
         Coords = vector3(2374.6, 4735.12, 33.76),
         heading = 0,
         minZ=30.96,
@@ -112,7 +112,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree15',
         Coords = vector3(2386.84, 4736.18, 33.25),
         heading = 0,
         minZ=30.45,
@@ -120,7 +120,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree16',
         Coords = vector3(2383.17, 4713.19, 33.71),
         heading = 0,
         minZ=30.91,
@@ -128,7 +128,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree17',
         Coords = vector3(2381.58, 4700.71, 33.94),
         heading = 0,
         minZ=31.34,
@@ -136,7 +136,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree18',
         Coords = vector3(2402.18, 4717.22, 33.16),
         heading = 0,
         minZ=30.36,
@@ -144,7 +144,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree19',
         Coords = vector3(2404.42, 4704.08, 33.37),
         heading = 0,
         minZ=30.57,
@@ -152,7 +152,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree20',
         Coords = vector3(2412.75, 4707.36, 33.01),
         heading = 0,
         minZ=30.21,
@@ -160,7 +160,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree21',
         Coords = vector3(2390.02, 4691.07, 33.89),
         heading = 0,
         minZ=30.21,
@@ -168,7 +168,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree22',
         Coords = vector3(2423.98, 4697.82, 33.06),
         heading = 0,
         minZ=30.06,
@@ -176,7 +176,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree23',
         Coords = vector3(2422.16, 4686.7, 33.69),
         heading = 0,
         minZ=30.89,
@@ -184,7 +184,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree24',
         Coords = vector3(2407.06, 4676.87, 33.96),
         heading = 0,
         minZ=31.56,
@@ -192,7 +192,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree25',
         Coords = vector3(2419.54, 4674.09, 33.89),
         heading = 0,
         minZ=31.29,
@@ -200,7 +200,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree26',
         Coords = vector3(2434.38, 4678.72, 33.39),
         heading = 0,
         minZ=30.99,
@@ -208,7 +208,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree27',
         Coords = vector3(2443.51, 4672.27, 33.33),
         heading = 0,
         minZ=30.33,
@@ -216,15 +216,18 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'appletree28',
         Coords = vector3(2423.89, 4658.64, 33.46),
         heading = 0,
         minZ=31.06,
         maxZ=35.06,
         distance = 1.5,
     },
+}
+
+LimeTrees = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree1',
         Coords = vector3(2389.91, 4992.31, 45.21),
         heading = 0,
         minZ=42.41,
@@ -232,7 +235,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree2',
         Coords = vector3(2389.62, 5004.42, 45.73),
         heading = 0,
         minZ=42.93,
@@ -240,7 +243,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree3',
         Coords = vector3(2376.46, 5016.76, 45.48),
         heading = 0,
         minZ=42.93,
@@ -248,7 +251,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree4',
         Coords = vector3(2377.49, 5003.99, 44.66),
         heading = 0,
         minZ=41.86,
@@ -256,7 +259,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree5',
         Coords = vector3(2369.59, 5010.9, 44.38),
         heading = 0,
         minZ=41.58,
@@ -264,7 +267,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree6',
         Coords = vector3(2357.19, 5020.52, 43.9),
         heading = 0,
         minZ=41.3,
@@ -272,7 +275,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree7',
         Coords = vector3(2342.02, 5035.0, 44.34),
         heading = 0,
         minZ=41.54,
@@ -280,7 +283,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree8',
         Coords = vector3(2329.53, 5036.98, 44.5),
         heading = 0,
         minZ=41.7,
@@ -288,7 +291,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree9',
         Coords = vector3(2343.63, 5022.67, 43.52),
         heading = 0,
         minZ=40.92,
@@ -296,7 +299,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree10',
         Coords = vector3(2360.91, 5002.34, 43.4),
         heading = 0,
         minZ=40.8,
@@ -304,7 +307,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree11',
         Coords = vector3(2374.04, 4988.99, 44.02),
         heading = 0,
         minZ=41.42,
@@ -312,7 +315,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree12',
         Coords = vector3(2361.52, 4988.74, 43.35),
         heading = 0,
         minZ=40.55,
@@ -320,7 +323,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree13',
         Coords = vector3(2344.51, 5007.92, 42.74),
         heading = 0,
         minZ=39.94,
@@ -328,7 +331,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree14',
         Coords = vector3(2330.36, 5021.91, 42.93),
         heading = 0,
         minZ=40.13,
@@ -336,7 +339,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree15',
         Coords = vector3(2316.68, 5023.66, 43.3),
         heading = 0,
         minZ=40.7,
@@ -344,7 +347,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree16',
         Coords = vector3(2331.01, 5007.99, 42.37),
         heading = 0,
         minZ=39.57,
@@ -352,7 +355,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree17',
         Coords = vector3(2349.42, 4989.62, 43.04),
         heading = 0,
         minZ=40.44,
@@ -360,7 +363,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree18',
         Coords = vector3(2361.61, 4976.4, 43.22),
         heading = 0,
         minZ=40.42,
@@ -368,7 +371,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree19',
         Coords = vector3(2349.42, 4975.85, 42.77),
         heading = 0,
         minZ=39.97,
@@ -376,7 +379,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree20',
         Coords = vector3(2336.21, 4976.07, 42.62),
         heading = 0,
         minZ=39.82,
@@ -384,7 +387,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree21',
         Coords = vector3(2317.97, 4984.55, 41.77),
         heading = 0,
         minZ=38.77,
@@ -392,7 +395,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree22',
         Coords = vector3(2317.08, 4994.16, 42.05),
         heading = 0,
         minZ=39.25,
@@ -400,7 +403,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree23',
         Coords = vector3(2304.87, 4997.04, 42.3),
         heading = 0,
         minZ=39.5,
@@ -408,7 +411,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree24',
         Coords = vector3(2316.94, 5008.96, 42.52),
         heading = 0,
         minZ=39.72,
@@ -416,15 +419,18 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'limetree25',
         Coords = vector3(2331.51, 4996.47, 42.12),
         heading = 0,
         minZ=39.12,
         maxZ=43.12,
         distance = 1.5,
-    },
+    }
+}
+
+OrangeTrees = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree1',
         Coords = vector3(377.96, 6505.88, 27.94),
         heading = 0,
         minZ=24.94,
@@ -432,7 +438,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree2',
         Coords = vector3(370.23, 6505.92, 28.4),
         heading = 0,
         minZ=25.4,
@@ -440,7 +446,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree3',
         Coords = vector3(363.13, 6505.82, 28.55),
         heading = 0,
         minZ=25.75,
@@ -448,7 +454,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree4',
         Coords = vector3(355.38, 6505.02, 28.51),
         heading = 0,
         minZ=25.71,
@@ -456,7 +462,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree5',
         Coords = vector3(347.74, 6505.41, 28.8),
         heading = 0,
         minZ=26.0,
@@ -464,7 +470,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree6',
         Coords = vector3(339.77, 6505.53, 28.7),
         heading = 0,
         minZ=25.9,
@@ -472,7 +478,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree7',
         Coords = vector3(330.82, 6505.69, 28.48),
         heading = 0,
         minZ=25.48,
@@ -480,7 +486,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree8',
         Coords = vector3(321.92, 6505.44, 29.2),
         heading = 0,
         minZ=26.2,
@@ -488,7 +494,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree9',
         Coords = vector3(321.87, 6517.33, 29.13),
         heading = 0,
         minZ=26.13,
@@ -496,7 +502,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree10',
         Coords = vector3(330.41, 6517.67, 28.98),
         heading = 0,
         minZ=26.38,
@@ -504,7 +510,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree11',
         Coords = vector3(338.85, 6517.19, 28.95),
         heading = 0,
         minZ=26.35,
@@ -512,7 +518,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree12',
         Coords = vector3(347.65, 6517.5, 28.77),
         heading = 0,
         minZ=25.97,
@@ -520,7 +526,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree13',
         Coords = vector3(355.28, 6517.28, 28.21),
         heading = 0,
         minZ=25.41,
@@ -528,7 +534,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree14',
         Coords = vector3(362.62, 6517.64, 28.26),
         heading = 0,
         minZ=25.46,
@@ -536,7 +542,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree15',
         Coords = vector3(369.96, 6517.68, 28.37),
         heading = 0,
         minZ=25.57,
@@ -544,7 +550,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree16',
         Coords = vector3(378.0, 6517.52, 28.37),
         heading = 0,
         minZ=25.57,
@@ -552,7 +558,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree17',
         Coords = vector3(369.4, 6531.86, 28.39),
         heading = 0,
         minZ=25.59,
@@ -560,7 +566,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree18',
         Coords = vector3(361.39, 6531.46, 28.35),
         heading = 0,
         minZ=25.55,
@@ -568,7 +574,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree19',
         Coords = vector3(353.77, 6530.84, 28.39),
         heading = 0,
         minZ=25.59,
@@ -576,7 +582,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree20',
         Coords = vector3(345.99, 6531.54, 28.75),
         heading = 0,
         minZ=25.95,
@@ -584,7 +590,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree21',
         Coords = vector3(338.41, 6531.29, 28.55),
         heading = 0,
         minZ=25.8,
@@ -592,7 +598,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree22',
         Coords = vector3(329.58, 6531.13, 28.63),
         heading = 0,
         minZ=25.83,
@@ -600,15 +606,18 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'orangetree23',
         Coords = vector3(321.75, 6531.13, 29.12),
         heading = 0,
         minZ=26.32,
         maxZ=30.32,
         distance = 1.5,
     },
+}
+
+PomegranateTrees = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree1',
         Coords = vector3(282.16, 6506.62, 30.14),
         heading = 0,
         minZ=27.14,
@@ -616,7 +625,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree2',
         Coords = vector3(273.44, 6507.42, 30.39),
         heading = 0,
         minZ=27.59,
@@ -624,7 +633,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree3',
         Coords = vector3(263.95, 6506.16, 30.67),
         heading = 0,
         minZ=27.87,
@@ -632,7 +641,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree4',
         Coords = vector3(263.95, 6506.16, 30.67),
         heading = 0,
         minZ=27.87,
@@ -640,7 +649,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree5',
         Coords = vector3(256.11, 6503.95, 30.84),
         heading = 0,
         minZ=28.04,
@@ -648,7 +657,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree6',
         Coords = vector3(246.75, 6502.97, 31.04),
         heading = 0,
         minZ=28.04,
@@ -656,7 +665,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree7',
         Coords = vector3(246.76, 6503.0, 31.04),
         heading = 0,
         minZ=27.84,
@@ -664,7 +673,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree8',
         Coords = vector3(236.83, 6501.92, 31.21),
         heading = 0,
         minZ=28.41,
@@ -672,7 +681,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree9',
         Coords = vector3(227.99, 6501.47, 31.31),
         heading = 0,
         minZ=28.71,
@@ -680,7 +689,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree10',
         Coords = vector3(219.97, 6499.34, 31.38),
         heading = 0,
         minZ=28.38,
@@ -688,7 +697,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree11',
         Coords = vector3(209.94, 6498.34, 31.45),
         heading = 0,
         minZ=28.65,
@@ -696,7 +705,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree12',
         Coords = vector3(201.43, 6497.22, 31.47),
         heading = 0,
         minZ=28.47,
@@ -704,7 +713,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree13',
         Coords = vector3(194.03, 6497.35, 31.52),
         heading = 0,
         minZ=28.72,
@@ -712,7 +721,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree14',
         Coords = vector3(185.12, 6498.04, 31.54),
         heading = 0,
         minZ=28.74,
@@ -720,7 +729,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree15',
         Coords = vector3(199.48, 6508.76, 31.51),
         heading = 0,
         minZ=28.51,
@@ -728,7 +737,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree16',
         Coords = vector3(208.51, 6509.88, 31.48),
         heading = 0,
         minZ=28.48,
@@ -736,7 +745,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree17',
         Coords = vector3(217.78, 6510.39, 31.4),
         heading = 0,
         minZ=28.6,
@@ -744,7 +753,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree18',
         Coords = vector3(225.82, 6511.73, 31.34),
         heading = 0,
         minZ=28.54,
@@ -752,7 +761,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree19',
         Coords = vector3(234.37, 6512.68, 31.24),
         heading = 0,
         minZ=28.44,
@@ -760,7 +769,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree20',
         Coords = vector3(244.76, 6515.25, 31.1),
         heading = 0,
         minZ=28.1,
@@ -768,7 +777,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree21',
         Coords = vector3(253.58, 6514.11, 30.94),
         heading = 0,
         minZ=27.94,
@@ -776,7 +785,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree22',
         Coords = vector3(262.23, 6516.63, 30.73),
         heading = 0,
         minZ=27.94,
@@ -784,7 +793,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree23',
         Coords = vector3(272.57, 6519.16, 30.45),
         heading = 0,
         minZ=27.45,
@@ -792,7 +801,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree24',
         Coords = vector3(281.57, 6518.98, 30.17),
         heading = 0,
         minZ=27.17,
@@ -800,7 +809,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree25',
         Coords = vector3(280.46, 6530.68, 30.2),
         heading = 0,
         minZ=27.4,
@@ -808,7 +817,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree26',
         Coords = vector3(270.45, 6530.64, 30.48),
         heading = 0,
         minZ=27.68,
@@ -816,7 +825,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree27',
         Coords = vector3(261.59, 6527.62, 30.72),
         heading = 0,
         minZ=27.72,
@@ -824,7 +833,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree28',
         Coords = vector3(251.96, 6527.45, 30.97),
         heading = 0,
         minZ=28.17,
@@ -832,7 +841,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree29',
         Coords = vector3(242.94, 6526.22, 31.1),
         heading = 0,
         minZ=28.1,
@@ -840,7 +849,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree30',
         Coords = vector3(233.22, 6524.61, 31.24),
         heading = 0,
         minZ=28.24,
@@ -848,15 +857,18 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pomegranatetree31',
         Coords = vector3(223.85, 6523.69, 31.33),
         heading = 0,
         minZ=21.33,
         maxZ=32.33,
         distance = 1.5,
     },
+}
+
+PeachTrees = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree1',
         Coords = vector3(2146.38, 4867.68, 40.81),
         heading = 0,
         minZ=39.33,
@@ -864,7 +876,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree2',
         Coords = vector3(2123.04, 4883.89, 40.88),
         heading = 0,
         minZ=38.28,
@@ -872,7 +884,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree3',
         Coords = vector3(2102.17, 4877.77, 41.02),
         heading = 0,
         minZ=38.22,
@@ -880,7 +892,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree4',
         Coords = vector3(2117.44, 4842.01, 41.54),
         heading = 0,
         minZ=38.5,
@@ -888,7 +900,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree5',
         Coords = vector3(2098.33, 4841.46, 41.55),
         heading = 0,
         minZ=39.15,
@@ -896,7 +908,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree6',
         Coords = vector3(2083.39, 4853.39, 41.94),
         heading = 0,
         minZ=39.15,
@@ -904,7 +916,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree7',
         Coords = vector3(2060.33, 4842.74, 41.93),
         heading = 0,
         minZ=39.53,
@@ -912,7 +924,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree8',
         Coords = vector3(2086.2, 4825.65, 41.64),
         heading = 0,
         minZ=39.04,
@@ -920,7 +932,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree9',
         Coords = vector3(2064.04, 4819.52, 41.69),
         heading = 0,
         minZ=39.49,
@@ -928,7 +940,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree10',
         Coords = vector3(2031.57, 4802.19, 41.8),
         heading = 0,
         minZ=39.0,
@@ -936,7 +948,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree11',
         Coords = vector3(2016.38, 4800.59, 42.07),
         heading = 0,
         minZ=39.47,
@@ -944,7 +956,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree12',
         Coords = vector3(2003.88, 4787.16, 41.98),
         heading = 0,
         minZ=39.18,
@@ -952,7 +964,7 @@ ATreeZones = {
         distance = 1.5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'peachtree13',
         Coords = vector3(1982.26, 4771.12, 41.86),
         heading = 0,
         minZ=39.66,
@@ -961,9 +973,9 @@ ATreeZones = {
     },
 }
 
-CowFarming1 = {
-    {
-        Name = math.random(1,99999999999999999999999),
+CowFarming = {
+    cow1 = {
+        Name = 'cow1',
         Coords = vector3(433.94, 6472.54, 28.77),
         length = 4.0,
         width = 6.4,
@@ -972,10 +984,8 @@ CowFarming1 = {
         maxZ=29.37,
         distance = 1.2,
     },
-}
-CowFarming2 = {
-    {
-        Name = math.random(1,99999999999999999999999),
+    cow2 = {
+        Name = 'cow2',
         Coords = vector3(425.9, 6463.02, 28.78),
         length = 4.0,
         width = 6.4,
@@ -984,10 +994,8 @@ CowFarming2 = {
         maxZ=29.37,
         distance = 1.2,
     },
-}
-CowFarming3 = {
-    {
-        Name = math.random(1,99999999999999999999999),
+    cow3 = {
+        Name = 'cow3',
         Coords = vector3(431.09, 6458.64, 28.76),
         length = 4.0,
         width = 6.4,
@@ -996,11 +1004,8 @@ CowFarming3 = {
         maxZ=29.37,
         distance = 1.2,
     },
-}
-
-CowFarming4 = {
-    {
-        Name = math.random(1,99999999999999999999999),
+    cow4 = {
+        Name = 'cow4',
         Coords = vector3(436.39, 6454.36, 28.75),
         length = 4.0,
         width = 6.4,
@@ -1011,75 +1016,284 @@ CowFarming4 = {
     },
 }
 
-PumpkinFarming1 = {
+PumpkinFarm = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pumpkin1',
         Coords = vector3(509.52, 6492.95, 29.36),
         length = 51.6,
         width = 5.8,
         heading = 0,
         minZ=26.16,
         maxZ=30.36,
-        distance = 1.35,
+        distance = 25,
+		debugPoly=true
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pumpkin2',
         Coords = vector3(518.15, 6493.43, 30.37),
         length = 51.6,
         width = 5.8,
         heading = 0,
         minZ=26.16,
         maxZ=30.82,
-        distance = 1.35,
+        distance = 25,
+		debugPoly=true
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'pumpkin3',
         Coords = vector3(501.22, 6490.95, 30.64),
         length = 54.6,
         width = 5.8,
         heading = 0,
         minZ=26.16,
         maxZ=30.82,
-        distance = 1.35,
-    }
+        distance = 25,
+		debugPoly=true
+    },
 }
 
-CornField1 = {
+LettuceFarm = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'lettuce1',
+        Coords = vector3(1970.46, 4872.09, 45.51),
+        length = 24.1,
+        width = 1.5,
+        heading = 45,
+        minZ=44.41,
+        maxZ=45.01,
+        distance = 1.35,
+    },
+    {
+        Name = 'lettuce2',
+        Coords = vector3(1965.62, 4868.49, 45.47),
+        length = 24.1,
+        width = 1.5,
+        heading = 45,
+        minZ=44.37,
+        maxZ=44.97,
+        distance = 1.35,
+    },	
+    {
+        Name = 'lettuce3',
+        Coords = vector3(1961.73, 4863.92, 45.47),
+        length = 24.1,
+        width = 1.5,
+        heading = 45,
+        minZ=44.37,
+        maxZ=44.97,
+        distance = 1.35,
+    },
+    {
+        Name = 'lettuce4',
+        Coords = vector3(1957.99, 4859.07, 45.47),
+        length = 24.1,
+        width = 1.5,
+        heading = 45,
+        minZ=44.37,
+        maxZ=44.97,
+        distance = 1.35,
+    },
+    {
+        Name = 'lettuce5',
+        Coords = vector3(1953.29, 4854.63, 45.79),
+        length = 24.1,
+        width = 1.5,
+        heading = 45,
+        minZ=44.69,
+        maxZ=45.29,
+        distance = 1.35,
+    },
+    {
+        Name = 'lettuce6',
+        Coords = vector3(1949.57, 4850.6, 45.47),
+        length = 24.1,
+        width = 1.5,
+        heading = 45,
+        minZ=44.37,
+        maxZ=44.97,
+        distance = 1.35,
+    },
+    {
+        Name = 'lettuce7',
+        Coords = vector3(1945.02, 4846.59, 45.47),
+        length = 24.1,
+        width = 1.5,
+        heading = 45,
+        minZ=44.37,
+        maxZ=44.97,
+        distance = 1.35,
+    },
+    {
+        Name = 'lettuce8',
+        Coords = vector3(1940.64, 4842.5, 45.51),
+        length = 24.1,
+        width = 1.5,
+        heading = 45,
+        minZ=44.41,
+        maxZ=45.01,
+        distance = 1.35,
+    },	
+}
+
+PineAppleFarm = {
+    {
+        Name = 'pineapple1',
+        Coords = vector3(367.97, 6647.53, 28.82),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple2',
+        Coords = vector3(367.99, 6643.1, 28.77),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple3',
+        Coords = vector3(368.02, 6638.64, 28.86),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple4',
+        Coords = vector3(368.0, 6634.48, 28.83),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple5',
+        Coords = vector3(367.99, 6630.03, 28.82),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple6',
+        Coords = vector3(367.95, 6625.55, 28.77),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple7',
+        Coords = vector3(367.92, 6621.31, 28.77),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple8',
+        Coords = vector3(368.02, 6617.06, 28.83),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple9',
+        Coords = vector3(367.98, 6612.81, 28.78),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple10',
+        Coords = vector3(368.03, 6604.16, 28.72),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple11',
+        Coords = vector3(367.95, 6599.9, 28.74),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },
+    {
+        Name = 'pineapple12',
+        Coords = vector3(368.0, 6596.25, 28.74),
+        length = 1.3,
+        width = 1.5,
+        heading = 1,
+        minZ=27.83,
+        maxZ=28.88,
+        distance = 1.35,
+    },	
+}
+
+CornField = {
+    {
+        Name = 'cornfield1',
         Coords = vector3(675.66, 6465.44, 32.68),
         length = 22.2,
         width = 126.4,
         heading = 0,
         minZ=26.16,
         maxZ=34.36,
-        distance = 5,
+        distance = 50,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'cornfield2',
         Coords = vector3(660.16, 6486.72, 30.05),
         length = 8.5,
         width = 95.0,
         heading = 0,
         minZ=26.16,
         maxZ=34.36,
-        distance = 5,
+        distance = 40,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'cornfield3',
         Coords = vector3(626.75, 6496.71, 30.23),
         length = 3.5,
         width = 25.0,
         heading = 0,
         minZ=26.16,
         maxZ=34.36,
-        distance = 5,
+        distance = 10,
     },
 }
 
-GrapeFields = {
+GrapeField = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'grapfield1',
         Coords = vector3(363.95, 6466.04, 30.36),
         length = 2.0,
         width = 11.0,
@@ -1089,7 +1303,7 @@ GrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'grapfield2',
         Coords = vector3(363.83, 6479.67, 30.09),
         length = 2.0,
         width = 11.0,
@@ -1099,7 +1313,7 @@ GrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'grapfield3',
         Coords = vector3(343.02, 6465.66, 30.24),
         length = 2.0,
         width = 11.0,
@@ -1109,7 +1323,7 @@ GrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'grapfield4',
         Coords = vector3(342.84, 6479.87, 29.44),
         length = 2.0,
         width = 11.0,
@@ -1118,83 +1332,8 @@ GrapeFields = {
         maxZ=30.36,
         distance = 5,
     },
-}
-
-
-GPeppersFields = {
     {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(356.92, 6473.85, 29.87),
-        length = 2.0,
-        width = 23.0,
-        heading = 270,
-        minZ=26.86,
-        maxZ=31.36,
-        distance = 5,
-    },
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(329.02, 6473.51, 29.91),
-        length = 2.0,
-        width = 23.0,
-        heading = 270,
-        minZ=26.86,
-        maxZ=31.36,
-        distance = 5,
-    },
-}
-
-CPeppersFields = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(350.2, 6473.89, 29.9),
-        length = 2.0,
-        width = 23.0,
-        heading = 270,
-        minZ=26.86,
-        maxZ=30.36,
-        distance = 5,
-    },
-}
-
-
-TomatoesField = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(322.17, 6472.49, 29.96),
-        length = 2.0,
-        width = 23.0,
-        heading = 270,
-        minZ=26.86,
-        maxZ=30.36,
-        distance = 5,
-    },
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2290.14, 4760.52, 38.45),
-        length = 11.8,
-        width = 2.0,
-        heading = 344,
-        minZ=35.65,
-        maxZ=39.65,
-        distance = 5,
-    },
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2284.07, 4766.46, 38.62),
-        length = 20.8,
-        width = 2.0,
-        heading = 344,
-        minZ=35.65,
-        maxZ=39.65,
-        distance = 5,
-    },
-}
-
-
-BigGrapeFields = {
-    {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield1',
         Coords = vector3(1977.28, 4834.13, 44.02),
         length = 2.0,
         width = 11.0,
@@ -1204,7 +1343,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield2',
         Coords = vector3(1995.4, 4815.91, 43.36),
         length = 2.0,
         width = 11.0,
@@ -1214,7 +1353,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield3',
         Coords = vector3(1999.38, 4821.57, 42.52),
         length = 2.0,
         width = 11.0,
@@ -1224,7 +1363,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield4',
         Coords = vector3(1981.46, 4839.82, 43.93),
         length = 2.0,
         width = 11.0,
@@ -1234,7 +1373,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield5',
         Coords = vector3(1948.11, 4892.15, 45.89),
         length = 2.0,
         width = 11.0,
@@ -1244,7 +1383,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield6',
         Coords = vector3(1943.17, 4888.39, 46.36),
         length = 2.0,
         width = 11.0,
@@ -1254,7 +1393,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield7',
         Coords = vector3(1925.37, 4906.07, 47.31),
         length = 2.0,
         width = 11.0,
@@ -1264,7 +1403,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield7',
         Coords = vector3(1890.05, 4846.44, 46.13),
         length = 2.0,
         width = 11.0,
@@ -1274,7 +1413,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield8',
         Coords = vector3(1918.97, 4805.35, 44.9),
         length = 2.0,
         width = 11.0,
@@ -1284,7 +1423,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield9',
         Coords = vector3(1923.98, 4810.51, 44.14),
         length = 2.0,
         width = 11.0,
@@ -1294,7 +1433,7 @@ BigGrapeFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggrapfield10',
         Coords = vector3(1906.83, 4827.43, 45.41),
         length = 2.0,
         width = 11.0,
@@ -1305,10 +1444,32 @@ BigGrapeFields = {
     },
 }
 
-
-BigGreenPepperFields = {
+MintsField = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'mintfield1',
+        Coords = vector3(356.92, 6473.85, 29.87),
+        length = 2.0,
+        width = 23.0,
+        heading = 270,
+        minZ=26.86,
+        maxZ=31.36,
+        distance = 5,
+    },
+    {
+        Name = 'mintfield2',
+        Coords = vector3(329.02, 6473.51, 29.91),
+        length = 2.0,
+        width = 23.0,
+        heading = 270,
+        minZ=26.86,
+        maxZ=31.36,
+        distance = 5,
+    },
+}
+
+CoffeeField = {
+    {
+        Name = 'biggreencoffeefield1',
         Coords = vector3(2005.03, 4832.2, 42.39),
         length = 2.0,
         width = 11.0,
@@ -1318,7 +1479,7 @@ BigGreenPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggreencoffeefield2',
         Coords = vector3(1990.39, 4847.37, 43.93),
         length = 2.0,
         width = 11.0,
@@ -1328,7 +1489,7 @@ BigGreenPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggreencoffeefield3',
         Coords = vector3(1950.36, 4899.32, 45.31),
         length = 2.0,
         width = 11.0,
@@ -1338,7 +1499,7 @@ BigGreenPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggreencoffeefield4',
         Coords = vector3(1940.63, 4908.97, 45.63),
         length = 2.0,
         width = 11.0,
@@ -1348,7 +1509,7 @@ BigGreenPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggreencoffeefield5',
         Coords = vector3(1909.42, 4850.82, 46.83),
         length = 2.0,
         width = 11.0,
@@ -1358,7 +1519,7 @@ BigGreenPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggreencoffeefield6',
         Coords = vector3(1895.87, 4864.11, 46.54),
         length = 2.0,
         width = 11.0,
@@ -1368,7 +1529,7 @@ BigGreenPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggreencoffeefield7',
         Coords = vector3(1889.45, 4856.51, 45.63),
         length = 2.0,
         width = 11.0,
@@ -1378,7 +1539,7 @@ BigGreenPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'biggreencoffeefield8',
         Coords = vector3(1902.78, 4843.23, 46.35),
         length = 2.0,
         width = 11.0,
@@ -1389,9 +1550,19 @@ BigGreenPepperFields = {
     },
 }
 
-BigChillyPepperFields = {
+PotatoesField = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'potatofield',
+        Coords = vector3(350.2, 6473.89, 29.9),
+        length = 2.0,
+        width = 23.0,
+        heading = 270,
+        minZ=26.86,
+        maxZ=30.36,
+        distance = 5,
+    },
+    {
+        Name = 'bigpotatoesfield1',
         Coords = vector3(1990.32, 4811.15, 42.59),
         length = 2.0,
         width = 11.0,
@@ -1401,7 +1572,7 @@ BigChillyPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigpotatoesfield2',
         Coords = vector3(1971.51, 4830.25, 43.78),
         length = 2.0,
         width = 11.0,
@@ -1411,7 +1582,7 @@ BigChillyPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigpotatoesfield3',
         Coords = vector3(1916.75, 4898.88, 47.27),
         length = 2.0,
         width = 11.0,
@@ -1421,7 +1592,7 @@ BigChillyPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigpotatoesfield4',
         Coords = vector3(1930.97, 4871.82, 47.01),
         length = 2.0,
         width = 11.0,
@@ -1431,7 +1602,7 @@ BigChillyPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigpotatoesfield5',
         Coords = vector3(1910.96, 4891.38, 47.35),
         length = 2.0,
         width = 11.0,
@@ -1441,7 +1612,7 @@ BigChillyPepperFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigpotatoesfield6',
         Coords = vector3(1929.26, 4831.36, 45.18),
         length = 2.0,
         width = 11.0,
@@ -1452,10 +1623,39 @@ BigChillyPepperFields = {
     },
 }
 
-
-BigTomatoesFields = {
+TomatoesField = {
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'tomatosfield1',
+        Coords = vector3(322.17, 6472.49, 29.96),
+        length = 2.0,
+        width = 23.0,
+        heading = 270,
+        minZ=26.86,
+        maxZ=30.36,
+        distance = 5,
+    },
+    {
+        Name = 'tomatosfield2',
+        Coords = vector3(2290.14, 4760.52, 38.45),
+        length = 11.8,
+        width = 2.0,
+        heading = 344,
+        minZ=35.65,
+        maxZ=39.65,
+        distance = 5,
+    },
+    {
+        Name = 'tomatosfield3',
+        Coords = vector3(2284.07, 4766.46, 38.62),
+        length = 20.8,
+        width = 2.0,
+        heading = 344,
+        minZ=35.65,
+        maxZ=39.65,
+        distance = 5,
+    },
+    {
+        Name = 'bigtomatoesfield1',
         Coords = vector3(1984.67, 4806.66, 42.52),
         length = 2.0,
         width = 11.0,
@@ -1465,7 +1665,7 @@ BigTomatoesFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigtomatoesfield2',
         Coords = vector3(1966.44, 4825.11, 43.55),
         length = 2.0,
         width = 11.0,
@@ -1475,7 +1675,7 @@ BigTomatoesFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigtomatoesfield3',
         Coords = vector3(1926.41, 4867.16, 47.09),
         length = 2.0,
         width = 11.0,
@@ -1485,7 +1685,7 @@ BigTomatoesFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigtomatoesfield4',
         Coords = vector3(1906.03, 4887.31, 47.25),
         length = 2.0,
         width = 11.0,
@@ -1495,7 +1695,7 @@ BigTomatoesFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigtomatoesfield5',
         Coords = vector3(1879.68, 4847.43, 45.3),
         length = 2.0,
         width = 11.0,
@@ -1505,7 +1705,7 @@ BigTomatoesFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigtomatoesfield6',
         Coords = vector3(1893.68, 4834.01, 45.89),
         length = 2.0,
         width = 11.0,
@@ -1515,7 +1715,7 @@ BigTomatoesFields = {
         distance = 5,
     },
     {
-        Name = math.random(1,99999999999999999999999),
+        Name = 'bigtomatoesfield7',
         Coords = vector3(1931.77, 4818.85, 44.46),
         length = 2.0,
         width = 11.0,
@@ -1526,210 +1726,165 @@ BigTomatoesFields = {
     },
 }
 
-PigPens1 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2149.72, 5013.18, 41.42),
-        length = 9.8,
-        width = 9.6,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+ChickenPens = {
+    chicken1 = {
+        Name = 'chicken1',
+        Coords = vector3(2386.2, 5047.97, 46.4),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens2 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2142.85, 5006.39, 41.38),
-        length = 9.8,
-        width = 9.0,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken2 = {
+        Name = 'chicken2',
+        Coords = vector3(2387.07, 5052.83, 46.45),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens3 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2135.11, 4998.56, 41.41),
-        length = 9.8,
-        width = 9.3,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken3 = {
+        Name = 'chicken3',
+        Coords = vector3(2386.37, 5057.24, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens4 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2128.18, 4991.77, 41.46),
-        length = 9.8,
-        width = 9.3,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken4 = {
+        Name = 'chicken4',
+        Coords = vector3(2382.61, 5059.2, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens5 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2144.2, 4974.91, 41.5),
-        length = 9.8,
-        width = 9.3,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken5 = {
+        Name = 'chicken5',
+        Coords = vector3(2371.64, 5056.94, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens6 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2151.32, 4982.25, 41.41),
-        length = 9.2,
-        width = 9.3,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken6 = {
+        Name = 'chicken6',
+        Coords = vector3(2377.03, 5059.62, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens7 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2158.47, 4989.62, 41.39),
-        length = 8.4,
-        width = 9.8,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken7 = {
+        Name = 'chicken7',
+        Coords = vector3(2374.73, 5056.82, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens8 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2165.78, 4996.3, 41.43),
-        length = 9.6,
-        width = 9.4,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken8 = {
+        Name = 'chicken8',
+        Coords = vector3(2374.08, 5053.2, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens9 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2176.93, 4986.21, 41.32),
-        length = 7.2,
-        width = 9.6,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken9 = {
+        Name = 'chicken9',
+        Coords = vector3(2377.54, 5050.32, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens10 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2169.45, 4980.47, 41.43),
-        length = 9.6,
-        width = 8.0,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken10 = {
+        Name = 'chicken10',
+        Coords = vector3(2380.87, 5049.97, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens11 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2162.13, 4972.63, 41.39),
-        length = 9.6,
-        width = 9.0,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken11 = {
+        Name = 'chicken11',
+        Coords = vector3(2383.23, 5054.1, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens12 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2154.96, 4965.7, 41.47),
-        length = 9.8,
-        width = 8.2,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken12 = {
+        Name = 'chicken12',
+        Coords = vector3(2377.87, 5054.12, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens13 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2171.78, 4943.27, 41.41),
-        length = 8.6,
-        width = 4.2,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken13 = {
+        Name = 'chicken13',
+        Coords = vector3(2381.62, 5056.2, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens14 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2182.41, 4954.25, 41.38),
-        length = 9.4,
-        width = 4.6,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken14 = {
+        Name = 'chicken14',
+        Coords = vector3(2376.19, 5047.36, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens15 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2189.74, 4961.19, 41.36),
-        length = 8.8,
-        width = 4.8,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken15 = {
+        Name = 'chicken15',
+        Coords = vector3(2374.41, 5049.63, 46.42),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
-}
-
-PigPens16 = {
-    {
-        Name = math.random(1,99999999999999999999999),
-        Coords = vector3(2192.86, 4965.4, 41.39),
-        length = 9.0,
-        width = 4.2,
-        heading = 45,
-        minZ=37.82,
-        maxZ=41.82,
-        distance = 1.0,
+    chicken16 = {
+        Name = 'chicken16',
+        Coords = vector3(2379.72, 5059.89, 46.44),
+        length = 2,
+        width = 2,
+        heading = 0,
+        minZ=42.6,
+        maxZ=46.6,
+        distance = 1.5,
     },
 }
