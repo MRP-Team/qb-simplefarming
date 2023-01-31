@@ -21,6 +21,17 @@ RegisterNetEvent('qb-simplefarming:sellItems', function()
 	end
 end)
 
+QBCore.Functions.CreateCallback('qb-simplefarming:weapon_knife', function(source, cb)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player ~= nil then
+        if Player.Functions.GetItemByName("weapon_knife") ~= nil then
+            cb(true)
+        else
+            cb(false)
+        end
+    end
+end)
+
 ------------------------------- Apple Farm ----------------------------
 
 RegisterServerEvent('qb-simplefarming:applepicking', function()
@@ -96,6 +107,14 @@ RegisterServerEvent('qb-simplefarming:cowmilking', function()
     TriggerClientEvent('QBCore:Notify', source, "Gathered  " ..cow_milkbucket.. " buckets of milk.")
 end)
 
+RegisterNetEvent('qb-simplefarming:slaycowreward', function()
+    local source = source
+    local Player = QBCore.Functions.GetPlayer(tonumber(source))
+    Player.Functions.AddItem('rawmeat', math.random(5,10))
+    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['rawmeat'], "add")
+    TriggerClientEvent('QBCore:Notify', source, "You gathered raw cow meat")
+end)
+
 ------------------------------- Pumpkin Farming ----------------------------
 
 RegisterServerEvent('qb-simplefarming:pumpkinpicking', function()
@@ -127,17 +146,6 @@ RegisterServerEvent('qb-simplefarming:pineapplepicking', function()
     Player.Functions.AddItem('pineapple', pineapplefarming)
     TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['pineapple'], "add")
     TriggerClientEvent('QBCore:Notify', source, "Picked up " ..pineapplefarming.. " Pinapple")
-end)
-
-------------------------------- Corn Farming ----------------------------
-
-RegisterServerEvent('qb-simplefarming:cornpicking', function()
-    local source = source
-    local Player = QBCore.Functions.GetPlayer(tonumber(source))
-    local cornfarming = math.random(1,3)
-    Player.Functions.AddItem('corncob', cornfarming)
-    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['corncob'], "add")
-    TriggerClientEvent('QBCore:Notify', source, "Grabbed " ..cornfarming.. " Corn Cobs")
 end)
 
 ------------------------------- Garden ----------------------------
@@ -231,6 +239,25 @@ RegisterServerEvent('qb-simplefarming:feedingchickenlit', function()
     Player.Functions.AddItem('eggs', eggs)
     TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['soybeans'], "remove")
     TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['eggs'], "add")
+end)
+
+RegisterNetEvent('qb-simplefarming:slaychickenreward', function()
+    local source = source
+    local Player = QBCore.Functions.GetPlayer(tonumber(source))
+    Player.Functions.AddItem('rawchicken', 1)
+    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['rawchicken'], "add")
+    TriggerClientEvent('QBCore:Notify', source, "You gathered 1 raw chicken")
+end)
+
+------------------------------- Corn Farming ----------------------------
+
+RegisterServerEvent('qb-simplefarming:cornpicking', function()
+    local source = source
+    local Player = QBCore.Functions.GetPlayer(tonumber(source))
+    local cornfarming = math.random(1,3)
+    Player.Functions.AddItem('corncob', cornfarming)
+    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['corncob'], "add")
+    TriggerClientEvent('QBCore:Notify', source, "Grabbed " ..cornfarming.. " Corn Cobs")
 end)
 
 -- Consumable

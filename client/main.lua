@@ -1,33 +1,21 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-local inZone = false
 
 ----------------------------------- Apple Stuff -----------------------------------
 CreateThread(function()
   for k, v in pairs(AppleField) do
-    local AppleFieldBlip = AddBlipForCoord(AppleField[k].BlipCoord)
-      SetBlipSprite(AppleFieldBlip, AppleField[k].Blip)
-      SetBlipAsShortRange(AppleFieldBlip, true)
-      SetBlipScale(AppleFieldBlip, 0.8)
-      SetBlipColour(AppleFieldBlip, AppleField[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(AppleField[k].label)
-      EndTextCommandSetBlipName(AppleFieldBlip)
-
     local ApplePicking = PolyZone:Create(AppleField[k].zones, {
       name = AppleField[k].label,
       minZ = AppleField[k].minz,
       maxZ = AppleField[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     ApplePicking:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('AppleTrees')
       else
         for k, v in pairs(AppleTrees) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -39,7 +27,7 @@ RegisterNetEvent('AppleTrees', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), 1, 1, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -49,7 +37,7 @@ RegisterNetEvent('AppleTrees', function()
           event = "qb-simplefarming:appletree",
           icon = "fas fa-apple-whole",
           label = "Pick Apples",
-          job = "farmer",
+          job = Config.Job,
         },
       },
     distance = v.distance,
@@ -78,30 +66,19 @@ end)
 
 CreateThread(function()
   for k, v in pairs(LimeField) do
-    local LimeFieldBlip = AddBlipForCoord(LimeField[k].BlipCoord)
-      SetBlipSprite(LimeFieldBlip, LimeField[k].Blip)
-      SetBlipAsShortRange(LimeFieldBlip, true)
-      SetBlipScale(LimeFieldBlip, 0.8)
-      SetBlipColour(LimeFieldBlip, LimeField[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(LimeField[k].label)
-      EndTextCommandSetBlipName(LimeFieldBlip)
-
     local LimePicking = PolyZone:Create(LimeField[k].zones, {
       name = LimeField[k].label,
       minZ = LimeField[k].minz,
       maxZ = LimeField[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     LimePicking:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('LimeTrees')
       else
         for k, v in pairs(LimeTrees) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -130,7 +107,7 @@ RegisterNetEvent('LimeTrees', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), 1, 1, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -140,7 +117,7 @@ RegisterNetEvent('LimeTrees', function()
           event = "qb-simplefarming:limetree",
           icon = "fas fa-lemon",
           label = "Pick Limes",
-          job = "farmer",
+          job = Config.Job,
         },
       },
     distance = v.distance,
@@ -152,30 +129,19 @@ end)
 
 CreateThread(function()
   for k, v in pairs(OrangeField) do
-    local OrangeFieldBlip = AddBlipForCoord(OrangeField[k].BlipCoord)
-      SetBlipSprite(OrangeFieldBlip, OrangeField[k].Blip)
-      SetBlipAsShortRange(OrangeFieldBlip, true)
-      SetBlipScale(OrangeFieldBlip, 0.8)
-      SetBlipColour(OrangeFieldBlip, OrangeField[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(OrangeField[k].label)
-      EndTextCommandSetBlipName(OrangeFieldBlip)
-
     local OrangePicking = PolyZone:Create(OrangeField[k].zones, {
       name = OrangeField[k].label,
       minZ = OrangeField[k].minz,
       maxZ = OrangeField[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     OrangePicking:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('OrangeTrees')
       else
         for k, v in pairs(OrangeTrees) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -204,7 +170,7 @@ RegisterNetEvent('OrangeTrees', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), 1, 1, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -214,7 +180,7 @@ RegisterNetEvent('OrangeTrees', function()
           event = "qb-simplefarming:orangetree",
           icon = "fas fa-apple-whole",
           label = "Pick Oranges",
-          job = "farmer",
+          job = Config.Job,
         },
       },
     distance = v.distance,
@@ -226,30 +192,19 @@ end)
 
 CreateThread(function()
   for k, v in pairs(PomegranateField) do
-    local PomegranateFieldBlip = AddBlipForCoord(PomegranateField[k].BlipCoord)
-      SetBlipSprite(PomegranateFieldBlip, PomegranateField[k].Blip)
-      SetBlipAsShortRange(PomegranateFieldBlip, true)
-      SetBlipScale(PomegranateFieldBlip, 0.8)
-      SetBlipColour(PomegranateFieldBlip, PomegranateField[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(PomegranateField[k].label)
-      EndTextCommandSetBlipName(PomegranateFieldBlip)
-
     local PomegranatePicking = PolyZone:Create(PomegranateField[k].zones, {
       name = PomegranateField[k].label,
       minZ = PomegranateField[k].minz,
       maxZ = PomegranateField[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     PomegranatePicking:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('PomegranateTrees')
       else
         for k, v in pairs(PomegranateTrees) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -278,7 +233,7 @@ RegisterNetEvent('PomegranateTrees', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), 1, 1, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -288,7 +243,7 @@ RegisterNetEvent('PomegranateTrees', function()
           event = "qb-simplefarming:pomegranatetree",
           icon = "fas fa-apple-whole",
           label = "Pick Pomegranates",
-          job = "farmer",
+          job = Config.Job,
         },
       },
     distance = v.distance,
@@ -300,30 +255,19 @@ end)
 
 CreateThread(function()
   for k, v in pairs(PeachField) do
-    local PeachFieldBlip = AddBlipForCoord(PeachField[k].BlipCoord)
-      SetBlipSprite(PeachFieldBlip, PeachField[k].Blip)
-      SetBlipAsShortRange(PeachFieldBlip, true)
-      SetBlipScale(PeachFieldBlip, 0.8)
-      SetBlipColour(PeachFieldBlip, PeachField[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(PeachField[k].label)
-      EndTextCommandSetBlipName(PeachFieldBlip)
-
     local PeachPicking = PolyZone:Create(PeachField[k].zones, {
       name = PeachField[k].label,
       minZ = PeachField[k].minz,
       maxZ = PeachField[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     PeachPicking:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('PeachTrees')
       else
         for k, v in pairs(PeachTrees) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -352,7 +296,7 @@ RegisterNetEvent('PeachTrees', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), 1, 1, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -362,7 +306,7 @@ RegisterNetEvent('PeachTrees', function()
           event = "qb-simplefarming:peachtree",
           icon = "fas fa-apple-whole",
           label = "Pick Peachs",
-          job = "farmer",
+          job = Config.Job,
         },
       },
     distance = v.distance,
@@ -370,117 +314,24 @@ RegisterNetEvent('PeachTrees', function()
   end
 end)
 
------------------------------------ Cow Farming Stuff -----------------------------------
-
--- Animals
-CreateThread(function()
-  for k, v in pairs(Barns) do
-    local BarnBlip = AddBlipForCoord(Barns[k].BlipCoord)
-    SetBlipSprite(BarnBlip, Barns[k].Blip)
-    SetBlipAsShortRange(BarnBlip, true)
-    SetBlipScale(BarnBlip, 0.8)
-    SetBlipColour(BarnBlip, Barns[k].BlipColor)
-    BeginTextCommandSetBlipName("STRING")
-    AddTextComponentString(Barns[k].label)
-    EndTextCommandSetBlipName(BarnBlip)
-
-    local BarnFarming = PolyZone:Create(Barns[k].zones, {
-        name = Barns[k].label,
-        minZ = Barns[k].minz,
-        maxZ = Barns[k].maxz,
-        debugPoly = false
-    })
-
-    BarnFarming:onPlayerInOut(function(isPointInside)
-      if isPointInside then
-        inZone = true
-        TriggerEvent('AnimalFarming')
-      else
-        for k, v in pairs(CowFarming) do
-          exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
-        end
-      end
-    end)
-  end
-end)
-
-RegisterNetEvent('qb-simplefarming:milkcow', function()
-  QBCore.Functions.TriggerCallback('qb-simplefarming:emptybucket', function(emptybucket)
-    if emptybucket then
-      local playerPed = PlayerPedId()
-      local coords = GetEntityCoords(playerPed)
-      TaskStartScenarioInPlace(playerPed, 'WORLD_HUMAN_BUM_WASH', 0, false)
-      QBCore.Functions.Progressbar('cow_milking', Config.Alerts['cow_milking'], 12000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
-      disableMovement = true,
-      disableCarMovement = true,
-      disableMouse = false,
-      disableCombat = true,
-    }, {
-    }, {}, {}, function()
-        ClearPedTasks(PlayerPedId())
-        TriggerServerEvent("qb-simplefarming:cowmilking")
-    end, function()
-      QBCore.Functions.Notify(Config.Alerts['cancel'], "error")
-    end)
-    elseif not emptybucket then
-      Wait(500)
-      QBCore.Functions.Notify(Config.Alerts['emptybucket'], "error", 3000)
-    end
-  end)
-end)
-
-RegisterNetEvent('AnimalFarming', function()
-  for k, v in pairs(CowFarming) do
-    exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
-      name=v.Name,
-      heading= v.heading,
-      debugPoly=false,
-      minZ = v.minZ,
-      maxZ = v.maxZ,
-    },{
-      options = {
-        {
-          type = "client",
-          event = "qb-simplefarming:milkcow",
-          icon = "fas fa-glass-water-droplet",
-          label = "Milk the Cow",
-          job = "farmer",
-        },
-      },
-      distance = v.distance,
-    })
-  end
-end)
-
 ------------ Pumpkins --------------
 
 CreateThread(function()
   for k, v in pairs(PumpkinField) do
-    local PumpkinFarmingBlip = AddBlipForCoord(PumpkinField[k].BlipCoord)
-      SetBlipSprite(PumpkinFarmingBlip, PumpkinField[k].Blip)
-      SetBlipAsShortRange(PumpkinFarmingBlip, true)
-      SetBlipScale(PumpkinFarmingBlip, 0.8)
-      SetBlipColour(PumpkinFarmingBlip, PumpkinField[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(PumpkinField[k].label)
-      EndTextCommandSetBlipName(PumpkinFarmingBlip)
 
     local PumpkinFarmingLocation = PolyZone:Create(PumpkinField[k].zones, {
       name = PumpkinField[k].label,
       minZ = PumpkinField[k].minz,
       maxZ = PumpkinField[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     PumpkinFarmingLocation:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('qb-simplefarming:pumpkin')
       else
         for k, v in pairs(PumpkinFarm) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -520,7 +371,7 @@ RegisterNetEvent('qb-simplefarming:pumpkin', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -530,7 +381,7 @@ RegisterNetEvent('qb-simplefarming:pumpkin', function()
           event = "qb-simplefarming:pumpkinfarming",
           icon = "fas fa-apple-whole",
           label = "Pick Pumpkin",
-          job = "farmer",
+          job = Config.Job,
         },
       },
       distance = v.distance,
@@ -542,30 +393,19 @@ end)
 
 CreateThread(function()
   for k, v in pairs(LettuceField) do
-    local LettuceFarmingBlip = AddBlipForCoord(LettuceField[k].BlipCoord)
-      SetBlipSprite(LettuceFarmingBlip, LettuceField[k].Blip)
-      SetBlipAsShortRange(LettuceFarmingBlip, true)
-      SetBlipScale(LettuceFarmingBlip, 0.8)
-      SetBlipColour(LettuceFarmingBlip, LettuceField[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(LettuceField[k].label)
-      EndTextCommandSetBlipName(LettuceFarmingBlip)
-
     local LettuceFarmingLocation = PolyZone:Create(LettuceField[k].zones, {
       name = LettuceField[k].label,
       minZ = LettuceField[k].minz,
       maxZ = LettuceField[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     LettuceFarmingLocation:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('qb-simplefarming:lettuce')
       else
         for k, v in pairs(LettuceFarm) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -605,7 +445,7 @@ RegisterNetEvent('qb-simplefarming:lettuce', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -615,7 +455,7 @@ RegisterNetEvent('qb-simplefarming:lettuce', function()
           event = "qb-simplefarming:lettucefarming",
           icon = "fas fa-seedling",
           label = "Pick Lettuce",
-          job = "farmer",
+          job = Config.Job,
         },
       },
       distance = v.distance,
@@ -627,30 +467,19 @@ end)
 
 CreateThread(function()
   for k, v in pairs(PineAppleField) do
-    local PineAppleFarmingBlip = AddBlipForCoord(PineAppleField[k].BlipCoord)
-      SetBlipSprite(PineAppleFarmingBlip, PineAppleField[k].Blip)
-      SetBlipAsShortRange(PineAppleFarmingBlip, true)
-      SetBlipScale(PineAppleFarmingBlip, 0.8)
-      SetBlipColour(PineAppleFarmingBlip, PineAppleField[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(PineAppleField[k].label)
-      EndTextCommandSetBlipName(PineAppleFarmingBlip)
-
     local PineAppleFarmingLocation = PolyZone:Create(PineAppleField[k].zones, {
       name = PineAppleField[k].label,
       minZ = PineAppleField[k].minz,
       maxZ = PineAppleField[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     PineAppleFarmingLocation:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('qb-simplefarming:pineapple')
       else
         for k, v in pairs(PineAppleFarm) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -690,7 +519,7 @@ RegisterNetEvent('qb-simplefarming:pineapple', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -700,7 +529,7 @@ RegisterNetEvent('qb-simplefarming:pineapple', function()
           event = "qb-simplefarming:pineapplefarming",
           icon = "fas fa-apple-whole",
           label = "Pick PineApple",
-          job = "farmer",
+          job = Config.Job,
         },
       },
       distance = v.distance,
@@ -712,30 +541,19 @@ end)
 
 CreateThread(function()
   for k, v in pairs(CornFields) do
-    local CornFieldBlips = AddBlipForCoord(CornFields[k].BlipCoord)
-      SetBlipSprite(CornFieldBlips, CornFields[k].Blip)
-      SetBlipAsShortRange(CornFieldBlips, true)
-      SetBlipScale(CornFieldBlips, 0.8)
-      SetBlipColour(CornFieldBlips, CornFields[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(CornFields[k].label)
-      EndTextCommandSetBlipName(CornFieldBlips)
-
     local CornFieldLocation = PolyZone:Create(CornFields[k].zones, {
       name = CornFields[k].label,
       minZ = CornFields[k].minz,
       maxZ = CornFields[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     CornFieldLocation:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('CornField')
       else
         for k, v in pairs(CornField) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -766,7 +584,7 @@ RegisterNetEvent('CornField', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -776,7 +594,7 @@ RegisterNetEvent('CornField', function()
           event = "qb-simplefarming:cornfield",
           icon = "fas fa-wheat-awn",
           label = "Grather Corn",
-          job = "farmer",
+          job = Config.Job,
         },
       },
       distance = v.distance,
@@ -788,25 +606,15 @@ end)
 
 CreateThread(function()
   for k, v in pairs(Garden) do
-    local GardenBlips = AddBlipForCoord(Garden[k].BlipCoord)
-      SetBlipSprite(GardenBlips, Garden[k].Blip)
-      SetBlipAsShortRange(GardenBlips, true)
-      SetBlipScale(GardenBlips, 0.8)
-      SetBlipColour(GardenBlips, Garden[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(Garden[k].label)
-      EndTextCommandSetBlipName(GardenBlips)
-
     local GardenLocation = PolyZone:Create(Garden[k].zones, {
       name = Garden[k].label,
       minZ = Garden[k].minz,
       maxZ = Garden[k].maxz,
-      debugPoly = false
+      debugPoly = Config.Debug
     })
 
     GardenLocation:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
         TriggerEvent('GrapeField')
         TriggerEvent('Mints')
         TriggerEvent('Coffee')
@@ -815,23 +623,18 @@ CreateThread(function()
       else
         for k, v in pairs(GrapeField) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
         for k, v in pairs(MintsField) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
         for k, v in pairs(CoffeeField) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
         for k, v in pairs(PotatoesField) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
         for k, v in pairs(TomatoesField) do
           exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
         end
       end
     end)
@@ -928,7 +731,7 @@ RegisterNetEvent('GrapeField', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -938,7 +741,7 @@ RegisterNetEvent('GrapeField', function()
             event = "qb-simplefarming:grapefield",
             icon = "fa fa-sign-language",
             label = "Pick Grapes",
-            job = "farmer",
+            job = Config.Job,
           },
         },
       distance = v.distance,
@@ -951,7 +754,7 @@ RegisterNetEvent('Mints', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -961,7 +764,7 @@ RegisterNetEvent('Mints', function()
             event = "qb-simplefarming:mintfield",
             icon = "fas fa-leaf",
             label = "Pick Mint",
-            job = "farmer",
+            job = Config.Job,
           },
         },
       distance = v.distance,
@@ -974,7 +777,7 @@ RegisterNetEvent('Coffee', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -984,7 +787,7 @@ RegisterNetEvent('Coffee', function()
             event = "qb-simplefarming:coffeefield",
             icon = "fas fa-leaf",
             label = "Pick Coffee Beans",
-            job = "farmer",
+            job = Config.Job,
           },
         },
       distance = v.distance,
@@ -997,7 +800,7 @@ RegisterNetEvent('Potatoes', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -1007,7 +810,7 @@ RegisterNetEvent('Potatoes', function()
             event = "qb-simplefarming:potatofield",
             icon = "fa fa-sign-language",
             label = "Pick Potatoes",
-            job = "farmer",
+            job = Config.Job,
           },
         },
       distance = v.distance,
@@ -1021,7 +824,7 @@ RegisterNetEvent('Tomatoes', function()
     exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
       name=v.Name,
       heading= v.heading,
-      debugPoly=false,
+      debugPoly = Config.Debug,
       minZ = v.minZ,
       maxZ = v.maxZ,
     },{
@@ -1031,7 +834,7 @@ RegisterNetEvent('Tomatoes', function()
             event = "qb-simplefarming:tomatoefields",
             icon = "fa fa-sign-language",
             label = "Pick Tomatoes From Garden",
-            job = "farmer",
+            job = Config.Job,
           },
         },
       distance = v.distance,
@@ -1039,34 +842,60 @@ RegisterNetEvent('Tomatoes', function()
   end
 end)
 
+-- Animals
 -- Chiken
 
 CreateThread(function()
-  for k, v in pairs(ChickenFarm) do
-    local ChickenFarmBlips = AddBlipForCoord(ChickenFarm[k].BlipCoord)
-      SetBlipSprite(ChickenFarmBlips, ChickenFarm[k].Blip)
-      SetBlipAsShortRange(ChickenFarmBlips, true)
-      SetBlipScale(ChickenFarmBlips, 0.8)
-      SetBlipColour(ChickenFarmBlips, ChickenFarm[k].BlipColor)
-      BeginTextCommandSetBlipName("STRING")
-      AddTextComponentString(ChickenFarm[k].label)
-      EndTextCommandSetBlipName(ChickenFarmBlips)
-
-    local ChickenFarmLocation = PolyZone:Create(ChickenFarm[k].zones, {
-      name = ChickenFarm[k].label,
-      minZ = ChickenFarm[k].minz,
-      maxZ = ChickenFarm[k].maxz,
-      debugPoly = false
+  for k, ChickenFarm in pairs(Config.ChickenFarms) do
+    local ChickenFarmLocation = PolyZone:Create(ChickenFarm.Zone, {
+      name = ChickenFarm.Label,
+      minZ = ChickenFarm.minZ,
+      maxZ = ChickenFarm.maxZ,
+      debugPoly = Config.Debug
     })
 
     ChickenFarmLocation:onPlayerInOut(function(isPointInside)
       if isPointInside then
-        inZone = true
-        TriggerEvent('ChickenPens')
+        for chickenPedName, chickenPedOptions in pairs(ChickenFarm.Peds) do
+          exports['qb-target']:AddBoxZone(chickenPedName, vector3(chickenPedOptions.Coords.x, chickenPedOptions.Coords.y, chickenPedOptions.Coords.z), 1.0, 1.0, {
+            name = chickenPedName,
+            heading = chickenPedOptions.heading,
+            debugPoly = Config.Debug,
+            minZ = ChickenFarm.minZ,
+            maxZ = ChickenFarm.maxZ,
+          },{
+            options = {
+              {
+                type = "client",
+                event = "qb-simplefarming:petchicken",
+                icon = "Fas Fa-Hand-Paper",
+                label = "Pet",
+                job = Config.Job,
+              },
+              {
+                type = "client",
+                event = "qb-simplefarming:feedchicken",
+                icon = "Fas Fa-Hand-Holding-Heart",
+                job = Config.Job,
+                label = "Feed Chicken",
+              },
+              {
+                type = "client",
+                action = function(entity)
+                  if IsPedAPlayer(entity) then return false end
+                  TriggerEvent('qb-simplefarming:killchicken', chickenPedOptions.Coords)
+                end,
+                icon = "Fas Fa-Hand-Holding-Heart",
+                job = Config.Job,
+                label = "Kill Chicken",
+              },
+            },
+            distance = 1.5,
+          })
+        end
       else
-        for k, v in pairs(ChickenPens) do
-          exports['qb-target']:RemoveZone(v.Name)
-          inZone = false
+        for chickenPedName, chickenPedOptions in pairs(ChickenFarm.Peds) do
+          exports['qb-target']:RemoveZone(chickenPedName)
         end
       end
     end)
@@ -1116,49 +945,166 @@ RegisterNetEvent('qb-simplefarming:feedchicken', function ()
   end)
 end)
 
-RegisterNetEvent('ChickenPens', function()
-  for k, v in pairs(ChickenPens) do
-    exports['qb-target']:AddBoxZone(v.Name, vector3(v.Coords.x, v.Coords.y, v.Coords.z), v.length, v.width, {
-      name=v.Name,
-      heading= v.heading,
-      debugPoly=false,
-      minZ = v.minZ,
-      maxZ = v.maxZ,
-    },{
-      options = {
-        {
-          type = "client",
-          event = "qb-simplefarming:petchicken",
-          icon = "Fas Fa-Hand-Paper",
-          label = "Pet",
-          job = "farmer",
-        },
-        {
-          type = "client",
-          event = "qb-simplefarming:feedchicken",
-          icon = "Fas Fa-Hand-Holding-Heart",
-          job = "farmer",
-          label = "Feed Chicken",
-        },
-      },
-      distance = v.distance,
+RegisterNetEvent('qb-simplefarming:spawnchicken',function(coords)
+  makePed(0x6AF51FAF, coords, true)
+end)
+
+RegisterNetEvent('qb-simplefarming:killchicken', function(coords)
+  QBCore.Functions.TriggerCallback('qb-simplefarming:weapon_knife', function(hasItem)
+    if hasItem then
+      local chickenPed, closestDistance = QBCore.Functions.GetClosestPed(coords)
+      if DoesEntityExist(chickenPed) and GetPedType(chickenPed) == 28 and closestDistance < 2.0 then
+      QBCore.Debug(GetPedType(chickenPed))
+      TriggerEvent('animations:client:EmoteCommandStart', {"Mechanic4"})
+        QBCore.Functions.Progressbar('Killing_chicken', Config.Alerts['killing_chicken'], 12000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
+          disableMovement = true,
+          disableCarMovement = true,
+          disableMouse = false,
+          disableCombat = true,
+          }, {}, {}, {}, function()
+            DeleteEntity(chickenPed)
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+            ClearPedTasks(PlayerPedId())
+            TriggerServerEvent('qb-simplefarming:slaychickenreward')
+            TriggerServerEvent('hud:Server:GainStress', math.random(1, 2))
+            Wait(1000 * 60 * 10) -- 10 minutes
+            TriggerEvent('qb-simplefarming:spawnchicken', coords)
+          end, function()
+            QBCore.Functions.Notify(Config.Alerts['cancel'], "error")
+        end)
+      end
+    elseif not hasItem then
+      QBCore.Functions.Notify(Config.Alerts['weapon'], "error", 3000)
+    end
+  end)
+end)
+
+-- Cows
+
+CreateThread(function()
+  for k, CowFarm in pairs(Config.CowFarms) do
+    local CowFarmLocation = PolyZone:Create(CowFarm.Zone, {
+      name = CowFarm.Label,
+      minZ = CowFarm.minZ,
+      maxZ = CowFarm.maxZ,
+      debugPoly = Config.Debug
     })
+
+    CowFarmLocation:onPlayerInOut(function(isPointInside)
+      if isPointInside then
+        for CowPedName, CowPedOptions in pairs(CowFarm.Peds) do
+          exports['qb-target']:AddBoxZone(CowPedName, vector3(CowPedOptions.Coords.x, CowPedOptions.Coords.y, CowPedOptions.Coords.z), 1.0, 1.0, {
+            name = CowPedName,
+            heading = CowPedOptions.heading,
+            debugPoly = Config.Debug,
+            minZ = CowFarm.minZ,
+            maxZ = CowFarm.maxZ,
+          },{
+            options = {
+              {
+                type = "client",
+                event = "qb-simplefarming:milkcow",
+                icon = "fas fa-glass-water-droplet",
+                label = "Milk the Cow",
+                job = Config.Job,
+              },
+              {
+                type = "client",
+                action = function(entity)
+                  if IsPedAPlayer(entity) then return false end
+                  TriggerEvent('qb-simplefarming:killCow', CowPedOptions.Coords)
+                end,
+                icon = "Fas Fa-Hand-Holding-Heart",
+                job = Config.Job,
+                label = "Kill Cow",
+              },
+            },
+            distance = 1.5,
+          })
+        end
+      else
+        for CowPedName, CowPedOptions in pairs(CowFarm.Peds) do
+          exports['qb-target']:RemoveZone(CowPedName)
+        end
+      end
+    end)
   end
 end)
 
-exports['qb-target']:AddBoxZone("sellerped", Seller.targetZone, 1, 1, {
+RegisterNetEvent('qb-simplefarming:milkcow', function()
+  QBCore.Functions.TriggerCallback('qb-simplefarming:emptybucket', function(emptybucket)
+    if emptybucket then
+      local playerPed = PlayerPedId()
+      local coords = GetEntityCoords(playerPed)
+      TaskStartScenarioInPlace(playerPed, 'WORLD_HUMAN_BUM_WASH', 0, false)
+      QBCore.Functions.Progressbar('cow_milking', Config.Alerts['cow_milking'], 12000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
+      disableMovement = true,
+      disableCarMovement = true,
+      disableMouse = false,
+      disableCombat = true,
+    }, {
+    }, {}, {}, function()
+        ClearPedTasks(PlayerPedId())
+        TriggerServerEvent("qb-simplefarming:cowmilking")
+    end, function()
+      QBCore.Functions.Notify(Config.Alerts['cancel'], "error")
+    end)
+    elseif not emptybucket then
+      Wait(500)
+      QBCore.Functions.Notify(Config.Alerts['emptybucket'], "error", 3000)
+    end
+  end)
+end)
+
+RegisterNetEvent('qb-simplefarming:spawncow',function(coords)
+  makePed(0xFCFA9E1E, coords, true)
+end)
+
+RegisterNetEvent('qb-simplefarming:killCow', function(coords)
+  QBCore.Functions.TriggerCallback('qb-simplefarming:weapon_knife', function(hasItem)
+    if hasItem then
+      local cowPed, closestDistance = QBCore.Functions.GetClosestPed(coords)
+      if DoesEntityExist(cowPed) and GetPedType(cowPed) == 28 and closestDistance < 2.0 then
+      QBCore.Debug(GetPedType(cowPed))
+      TriggerEvent('animations:client:EmoteCommandStart', {"Mechanic4"})
+        QBCore.Functions.Progressbar('Killing_cow', Config.Alerts['killing_cow'], 12000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
+          disableMovement = true,
+          disableCarMovement = true,
+          disableMouse = false,
+          disableCombat = true,
+          }, {}, {}, {}, function()
+            DeleteEntity(cowPed)
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+            ClearPedTasks(PlayerPedId())
+            TriggerServerEvent('qb-simplefarming:slaycowreward')
+            TriggerServerEvent('hud:Server:GainStress', math.random(1, 2))
+            Wait(1000 * 60 * 10) -- 10 minutes
+            TriggerEvent('qb-simplefarming:spawncow', coords)
+          end, function()
+            QBCore.Functions.Notify(Config.Alerts['cancel'], "error")
+        end)
+      end
+    elseif not hasItem then
+      QBCore.Functions.Notify(Config.Alerts['weapon'], "error", 3000)
+    end
+  end)
+end)
+
+-- seller
+
+exports['qb-target']:AddBoxZone("sellerped", Config.Seller.Coords, 1, 1, {
 	name = "seller",
-	heading = Seller.targetHeading,
-	debugPoly = false,
-	minZ = Seller.minZ,
-	maxZ = Seller.maxZ,
+	heading = Config.Seller.Coords.w,
+	debugPoly = Config.Debug,
+	minZ = Config.Seller.minZ,
+	maxZ = Config.Seller.maxZ,
 }, {
 	options = {
     {
       type = "server",
       event = "qb-simpefarming:sellItems",
       icon = "Fas Fa-hands",
-      job = "farmer",
+      job = Config.Job,
       label = "Talk to farmer",
     },
 	},
