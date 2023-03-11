@@ -1,6 +1,6 @@
 Config = Config or {}
 
-Config.Debug = true
+Config.Debug = false
 
 Config.Job = 'farmer' -- set to false if no job is needed (Config.Job = false)
 

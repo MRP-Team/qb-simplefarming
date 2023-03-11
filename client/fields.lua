@@ -975,37 +975,158 @@ PeachTrees = {
 
 PumpkinFarm = {
     {
-        Name = 'pumpkin1',
-        Coords = vector3(509.52, 6492.95, 29.36),
-        length = 51.6,
+        Name = 'pumpkin1-1',
+        Coords = vector3(517.88, 6514.05, 29.57),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.82,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin1-2',
+        Coords = vector3(517.8, 6506.65, 29.64),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.82,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin1-3',
+        Coords = vector3(517.88, 6499.35, 29.89),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.82,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin1-4',
+        Coords = vector3(517.75, 6488.77, 30.74),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.82,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin1-5',
+        Coords = vector3(518.34, 6476.48, 30.88),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.82,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin2-1',
+        Coords = vector3(509.58, 6513.3, 30.15),
+        length = 6.5,
         width = 5.8,
         heading = 0,
         minZ=26.16,
         maxZ=30.36,
-        distance = 25,
-		debugPoly=true
+        distance = 3,
+		debugPoly=Config.Debug
     },
     {
-        Name = 'pumpkin2',
-        Coords = vector3(518.15, 6493.43, 30.37),
-        length = 51.6,
+        Name = 'pumpkin2-2',
+        Coords = vector3(509.23, 6503.46, 29.75),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.36,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin2-3',
+        Coords = vector3(509.52, 6492.95, 29.36),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.36,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin2-4',
+        Coords = vector3(509.55, 6482.63, 30.79),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.36,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin2-5',
+        Coords = vector3(509.4, 6473.03, 31.02),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.36,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin3-1',
+        Coords = vector3(501.14, 6472.99, 30.81),
+        length = 6.5,
         width = 5.8,
         heading = 0,
         minZ=26.16,
         maxZ=30.82,
-        distance = 25,
-		debugPoly=true
+        distance = 3,
+		debugPoly=Config.Debug
     },
     {
-        Name = 'pumpkin3',
-        Coords = vector3(501.22, 6490.95, 30.64),
-        length = 54.6,
+        Name = 'pumpkin3-2',
+        Coords = vector3(501.43, 6484.78, 31.16),
+        length = 6.5,
         width = 5.8,
         heading = 0,
         minZ=26.16,
         maxZ=30.82,
-        distance = 25,
-		debugPoly=true
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin3-3',
+        Coords = vector3(501.27, 6497.07, 30.31),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.82,
+        distance = 3,
+		debugPoly=Config.Debug
+    },
+    {
+        Name = 'pumpkin3-4',
+        Coords = vector3(501.28, 6509.07, 30.4),
+        length = 6.5,
+        width = 5.8,
+        heading = 0,
+        minZ=26.16,
+        maxZ=30.82,
+        distance = 3,
+		debugPoly=Config.Debug
     },
 }
 
